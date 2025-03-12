@@ -1,6 +1,6 @@
 # 🛡️ Advanced Log Monitoring System
 
-<img src="https://github.com/user-attachments/assets/56d98cd5-2414-4408-b588-3b6e53f696b2" alt="Log Monitoring" width="900">
+<img src="https://github.com/user-attachments/assets/56d98cd5-2414-4408-b588-3b6e53f696b2" alt="Log Monitoring" width="800">
 
 
 
@@ -33,30 +33,7 @@ This project is designed to analyze and monitor login attempts in real-time usin
 | **Maven**       | Dependency management |
 | **GitHub**      | Version control |
 
----
 
-## 🚀 How to Run the Project
-### 🔹 Prerequisites:
-Make sure you have the following installed:
-- Java (JDK 11 or later)
-- Maven
-- A large log file (e.g., `logs.txt`)
-
-### 🔹 Steps:
-1️⃣ **Clone the repository:**
-```sh
- git clone https://github.com/YourUsername/LogMonitoringSystem.git
-```
-
-2️⃣ **Navigate to the project directory:**
-```sh
- cd LogMonitoringSystem
-```
-
-3️⃣ **Run the application:**
-```sh
- mvn spring-boot:run
-```
 
 ---
 
@@ -69,15 +46,6 @@ Make sure you have the following installed:
 
 ---
 
-## 📸 Screenshots
-### 🔹 System Running in Console
-![Console Output]()
-
-### 🔹 Log File Example
-![Log File](![download](https://github.com/user-attachments/assets/4ba0dc25-e029-49c8-b11d-67829e9ee0f2)
-)
-
----
 
 ## 🎯 Future Improvements
 🚀 **Possible Upgrades:**
@@ -91,10 +59,3 @@ Make sure you have the following installed:
 👤 **Your Name**  
 🔗 [GitHub Profile](https://github.com/YourUsername)  
 📧 your.email@example.com  
-
----
-
-## ⭐ Support & Contributions
-If you like this project, give it a ⭐ on GitHub!  
-Pull requests are welcome. Feel free to contribute! 💡
-
