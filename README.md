@@ -14,11 +14,11 @@ This project is designed to analyze and monitor login attempts in real-time usin
 ---
 
 ## ⚙️ Features
-✅ **Real-time log monitoring** 🔍.
-✅ **Parallel Processing for fast analysis** ⚡.
-✅ **Batch Processing for scalability** 📊.
-✅ **Detects failed login attempts** 🚨.
-✅ **Easily extendable with database storage** 🗄️.
+✅ **Real-time log monitoring** 🔍  
+✅ **Parallel Processing for fast analysis** ⚡  
+✅ **Batch Processing for scalability** 📊  
+✅ **Detects failed login attempts** 🚨  
+✅ **Easily extendable with database storage** 🗄️  
 
 ---
 
@@ -69,7 +69,7 @@ Make sure you have the following installed:
 
 ## 📸 Screenshots
 ### 🔹 System Running in Console
-![Console Output]([https://your-image-link.com/console-output.png](https://th.bing.com/th/id/OIP.YquO8MPDhB0-OvvnA3Qj4AHaDt?w=312&h=175&c=7&r=0&o=5&pid=1.7))
+![Console Output](https://your-image-link.com/console-output.png)
 
 ### 🔹 Log File Example
 ![Log File](https://your-image-link.com/log-file-example.png)
