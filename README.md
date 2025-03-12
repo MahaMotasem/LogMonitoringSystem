@@ -1,6 +1,7 @@
 # 🛡️ Advanced Log Monitoring System
 
-![Log Monitoring](https://your-image-link.com/log-banner.png)
+![Log Monitoring](![protect](https://github.com/user-attachments/assets/56d98cd5-2414-4408-b588-3b6e53f696b2)
+)
 
 ## 📌 Overview
 This project is designed to analyze and monitor login attempts in real-time using **Java Multi-threading** and **Parallel Processing**. It also utilizes **Spring Batch** for efficient batch log processing.
