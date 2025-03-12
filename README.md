@@ -70,10 +70,11 @@ Make sure you have the following installed:
 
 ## 📸 Screenshots
 ### 🔹 System Running in Console
-![Console Output](https://your-image-link.com/console-output.png)
+![Console Output]()
 
 ### 🔹 Log File Example
-![Log File](https://your-image-link.com/log-file-example.png)
+![Log File](![download](https://github.com/user-attachments/assets/4ba0dc25-e029-49c8-b11d-67829e9ee0f2)
+)
 
 ---
 
