@@ -14,11 +14,11 @@ This project is designed to analyze and monitor login attempts in real-time usin
 ---
 
 ## ⚙️ Features
-✅ **Real-time log monitoring** 🔍
-✅ **Parallel Processing for fast analysis** ⚡
-✅ **Batch Processing for scalability** 📊
-✅ **Detects failed login attempts** 🚨
-✅ **Easily extendable with database storage** 🗄️
+✅ **Real-time log monitoring** 🔍.
+✅ **Parallel Processing for fast analysis** ⚡.
+✅ **Batch Processing for scalability** 📊.
+✅ **Detects failed login attempts** 🚨.
+✅ **Easily extendable with database storage** 🗄️.
 
 ---
 
