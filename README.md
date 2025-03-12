@@ -8,6 +8,7 @@
 The **Advanced Log Monitoring System** is designed to **analyze and track login attempts in real-time** using **Java Multi-threading** and **Parallel Processing** for high-speed log file analysis. The system also leverages **Spring Batch** for efficient and scalable batch processing of large log files.
 
 This project helps organizations **monitor login activities**, **detect suspicious login attempts**, and **improve security** by identifying unusual patterns in login failures.
+---
 
 ### 🚀 Why This Project?
 With the increasing number of **cyber threats** and **unauthorized access attempts**, log monitoring plays a crucial role in **enhancing security**.  
@@ -42,7 +43,6 @@ This system provides:
 
 ---
 
----
 
 ## 📜 Example Log File (`logs.txt`)
 ```
