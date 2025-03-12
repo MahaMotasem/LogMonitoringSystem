@@ -1,6 +1,7 @@
 # 🛡️ Advanced Log Monitoring System
 
-![Log Monitoring](https://github.com/user-attachments/assets/56d98cd5-2414-4408-b588-3b6e53f696b2)
+<img src="https://github.com/user-attachments/assets/56d98cd5-2414-4408-b588-3b6e53f696b2" alt="Log Monitoring" width="900">
+
 
 
 ## 📌 Overview
