@@ -1,11 +1,11 @@
-# 🛡️ Advanced Log Monitoring System
+# 🛡️ Log Monitoring System
 
 <img src="https://github.com/user-attachments/assets/56d98cd5-2414-4408-b588-3b6e53f696b2" alt="Log Monitoring" width="800">
 
----
+
 
 ## 📌 Overview
-The **Advanced Log Monitoring System** is designed to **analyze and track login attempts in real-time** using **Java Multi-threading** and **Parallel Processing** for high-speed log file analysis. The system also leverages **Spring Batch** for efficient and scalable batch processing of large log files.
+This project is a **Log Monitoring System** that reads logs from a file (logs.txt) and processes them using *Multi-threading* in Java. It is designed to efficiently handle large log files by utilizing multiple threads to improve performance.
 
 This project helps organizations **monitor login activities**, **detect suspicious login attempts**, and **improve security** by identifying unusual patterns in login failures.
 ---
@@ -14,32 +14,28 @@ This project helps organizations **monitor login activities**, **detect suspicio
 With the increasing number of **cyber threats** and **unauthorized access attempts**, log monitoring plays a crucial role in **enhancing security**.  
 This system provides:
 
-✅ **Real-time monitoring** of login attempts.  
-✅ **Multi-threaded processing** for handling large log files efficiently.  
-✅ **Batch processing** with **Spring Batch** for scalable log analysis.  
-✅ **Suspicious login attempt detection** with alert capabilities.  
-✅ **Future expansion** possibilities, such as **database integration, email notifications,** and a **web dashboard** for visualization.  
 
 ---
 
 ## ⚙️ Features
+✅ **Efficient Log Analysis** -High-speed scanning of log files.  
+✅ **Real-time Alerts** -Detects security threats instantly. 
+✅ **Structured Logging**  – Logs are well-organized for quick diagnosis.
 🔍 **Real-time Log Monitoring** – Continuously scans logs for failed login attempts.  
 ⚡ **Parallel Processing** – Uses **Multi-threading** to analyze large logs faster.  
-📊 **Batch Processing** – Handles massive log files efficiently with **Spring Batch**.  
-🚨 **Failed Login Detection** – Identifies multiple failed login attempts for security alerts.  
-🗄️ **Database Integration Ready** – Easily extendable to store log data in **MySQL or PostgreSQL**.  
-📩 **Scalable Architecture** – Designed for future enhancements like **email/SMS alerts** and **cloud integration**.  
+🚨 **Failed Login Detection** – Identifies multiple failed login attempts for security alerts.   
+📩 **Scalability** – Easily integrates with existing monitoring solutions. 
 
 ---
 
 ## 🛠️ Technologies Used
 | **Technology**       | **Purpose**                               |
 |----------------------|-------------------------------------------|
-| **Java**            | Main programming language                 |
-| **Multi-threading** | Speed up log file analysis                |
-| **Spring Batch**    | Efficient data processing                 |
-| **Maven**           | Dependency management                     |
-| **GitHub**          | Version control                           |
+| **Java**            | Main programming language                  |
+| **Multi-threading** | For fast log analysis and real-time alerts |
+| **Java (JDK 17+)**  | ore application logic                      |
+| **Maven**           | Dependency management                      |
+| **GitHub**          | Version control                            |
 
 ---
 
@@ -56,12 +52,53 @@ This system provides:
 
 
 ---
+## 📂 Project Structure
 
+LogMonitorSystem/
+│── src/
+│   ├── logmonitorsystem/
+│   │   ├── LogMonitorSystem.java  # Main class to read logs
+│   │   ├── LogProcessor.java       # Multi-threaded log processing
+│── logs.txt                        # Log file (created manually)
+│── README.md
 
-## 🎯 Future Improvements
-🚀 **Possible Upgrades:**
-- ✅ Integrate with **MySQL** to store log data 📊
-- ✅ Add **Email/SMS Alerts** for suspicious logins 📩
-- ✅ Develop a **Web Dashboard** to visualize logs 📈
+---
+## 🛠 Project Implementation Steps
+
+-1️⃣ Requirements Analysis & Planning
+
+Define the main objectives of the log monitoring system.
+
+Identify key security threats and logging needs.
+
+Choose the appropriate technologies
+
+-2️⃣ Setting Up the Development Environment
+
+Install Java (JDK 17+), Maven, and necessary dependencies.
+Install NetBeans IDE.
+
+Clone the GitHub repository.
+
+-3️⃣ Implementing the Log Monitoring System
+
+-🔄 Develop log processing services using Java multi-threading for efficiency.
+
+-4️⃣ Log Analysis & Alert System
+
+📊 Implement log parsing and filtering using Regex and data structures.
+
+🚨 Detect failed login attempts and unauthorized access.
+
+### ⿣ Ensure logs.txt Exists
+- Inside the project folder, manually create a file named logs.txt and add some log data, for example:
+  txt
+  [INFO] Application started
+  [WARNING] High memory usage detected
+  [ERROR] Unable to connect to database
+
+-5️⃣ Deploy and Monitor
+
+🚀 Build & Run the Project
 
 ---
