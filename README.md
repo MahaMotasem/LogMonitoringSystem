@@ -4,27 +4,28 @@
 
 
 
-## 📌 Overview
+# 📌 Overview
 This project is a **Log Monitoring System** that reads logs from a file (logs.txt) and processes them using *Multi-threading* in Java. It is designed to efficiently handle large log files by utilizing multiple threads to improve performance.
 
-This project helps organizations **monitor login activities**, **detect suspicious login attempts**, and **improve security** by identifying unusual patterns in login failures.
 ---
 
 ### 🚀 Why This Project?
 With the increasing number of **cyber threats** and **unauthorized access attempts**, log monitoring plays a crucial role in **enhancing security**.  
-This system provides:
-
+This system helps organizations:
+**monitor login activities**,
+**detect suspicious login attempts**,
+**improve security** by identifying unusual patterns in login failures.
 
 ---
 
 ## ⚙️ Features
-✅ **Efficient Log Analysis** -High-speed scanning of log files.  
-✅ **Real-time Alerts** -Detects security threats instantly. 
-✅ **Structured Logging**  – Logs are well-organized for quick diagnosis.
+#✅ **Efficient Log Analysis** -High-speed scanning of log files.  
+#✅ **Real-time Alerts** -Detects security threats instantly. 
+#✅ **Structured Logging**  – Logs are well-organized for quick diagnosis.
 🔍 **Real-time Log Monitoring** – Continuously scans logs for failed login attempts.  
-⚡ **Parallel Processing** – Uses **Multi-threading** to analyze large logs faster.  
-🚨 **Failed Login Detection** – Identifies multiple failed login attempts for security alerts.   
-📩 **Scalability** – Easily integrates with existing monitoring solutions. 
+#⚡ **Parallel Processing** – Uses **Multi-threading** to analyze large logs faster.  
+#🚨 **Failed Login Detection** – Identifies multiple failed login attempts for security alerts.   
+#📩 **Scalability** – Easily integrates with existing monitoring solutions. 
 
 ---
 
@@ -54,13 +55,13 @@ This system provides:
 ---
 ## 📂 Project Structure
 
-LogMonitorSystem/
-│── src/
-│   ├── logmonitorsystem/
-│   │   ├── LogMonitorSystem.java  # Main class to read logs
-│   │   ├── LogProcessor.java       # Multi-threaded log processing
-│── logs.txt                        # Log file (created manually)
-│── README.md
+#LogMonitorSystem/
+#│── src/
+#│   ├── logmonitorsystem/
+#│   │   ├── LogMonitorSystem.java  # Main class to read logs
+#│   │   ├── LogProcessor.java       # Multi-threaded log processing
+#│── logs.txt                        # Log file (created manually)
+#│── README.md
 
 ---
 ## 🛠 Project Implementation Steps
@@ -90,15 +91,15 @@ Clone the GitHub repository.
 
 🚨 Detect failed login attempts and unauthorized access.
 
-### ⿣ Ensure logs.txt Exists
-- Inside the project folder, manually create a file named logs.txt and add some log data, for example:
+# Ensure logs.txt Exists
+#- Inside the project folder, manually create a file named logs.txt and add some log data, for example:
   txt
-  [INFO] Application started
-  [WARNING] High memory usage detected
-  [ERROR] Unable to connect to database
+  #[INFO] Application started
+  #[WARNING] High memory usage detected
+  #[ERROR] Unable to connect to database
 
 -5️⃣ Deploy and Monitor
 
 🚀 Build & Run the Project
 
----
+
