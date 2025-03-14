@@ -42,12 +42,14 @@ With the increasing number of **cyber threats** and **unauthorized access attemp
 ---
 
 ## 📜 Example Log File (`logs.txt`)
+```
 [2025-03-10 10:15:30] User: Ahmed LOGIN SUCCESS
 [2025-03-10 10:16:05] User: Sara FAILED LOGIN
 [2025-03-10 10:16:35] User: Ali FAILED LOGIN
 [2025-03-10 10:17:00] User: Sara FAILED LOGIN
 [2025-03-10 10:17:20] User: Sara FAILED LOGIN
 
+```
 
 
 🚨 From the above logs, we can see that "Sara" has multiple failed login attempts, which could indicate a brute-force attack or unauthorized access attempt.
