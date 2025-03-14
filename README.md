@@ -1,6 +1,6 @@
 # 🛡️ Log Monitoring System
 
-![Log Monitoring](https://github.com/user-attachments/assets/56d98cd5-2414-4408-b588-3b6e53f696b2)
+<img src="https://github.com/user-attachments/assets/56d98cd5-2414-4408-b588-3b6e53f696b2" alt="Log Monitoring" width="800">
 
 ## 📌 Overview
 
@@ -29,58 +29,15 @@ With the increasing number of **cyber threats** and **unauthorized access attemp
 - 📩 **Scalability** - Easily integrates with existing monitoring solutions.
 
 ---
-
 ## 🛠️ Technologies Used
+| **Technology**       | **Purpose**                               |
+|----------------------|-------------------------------------------|
+| **Java**            | Main programming language                  |
+| **Multi-threading** | For fast log analysis and real-time alerts |
+| **Java (JDK 17+)**  | ore application logic                      |
+| **Maven**           | Dependency management                      |
+| **GitHub**          | Version control                            |
 
-|
-**
-Technology
-**
-|
-**
-Purpose
-**
-|
-|
-----------------------
-|
--------------------------------------------
-|
-|
-**
-Java
-**
-|
- Main programming language                 
-|
-|
-**
-Multi-threading
-**
-|
- For fast log analysis and real-time alerts
-|
-|
-**
-Java (JDK 17+)
-**
-|
- Core application logic                    
-|
-|
-**
-Maven
-**
-|
- Dependency management                     
-|
-|
-**
-GitHub
-**
-|
- Version control                           
-|
 
 ---
 
@@ -98,16 +55,16 @@ GitHub
 ---
 
 ## 📂 Project Structure
+
+```
 LogMonitorSystem/
-│── src/
-│ ├── logmonitorsystem/
-│ │ ├── LogMonitorSystem.java # Main class to read logs
-│ │ ├── LogProcessor.java # Multi-threaded log processing
-│── logs.txt # Log file (created manually)
-│── README.md
-
-
-Collapse
+├── src/
+│   └── logmonitorsystem/
+│       ├── LogMonitorSystem.java  # Main class to read logs
+│       └── LogProcessor.java      # Multi-threaded log processing
+├── logs.txt                       # Log file (created manually)
+└── README.md
+```
 
 ---
 
