@@ -1,105 +1,140 @@
 # 🛡️ Log Monitoring System
 
-<img src="https://github.com/user-attachments/assets/56d98cd5-2414-4408-b588-3b6e53f696b2" alt="Log Monitoring" width="800">
+![Log Monitoring](https://github.com/user-attachments/assets/56d98cd5-2414-4408-b588-3b6e53f696b2)
 
+## 📌 Overview
 
-
-# 📌 Overview
-This project is a **Log Monitoring System** that reads logs from a file (logs.txt) and processes them using *Multi-threading* in Java. It is designed to efficiently handle large log files by utilizing multiple threads to improve performance.
+This project is a **Log Monitoring System** that reads logs from a file (`logs.txt`) and processes them using *Multi-threading* in Java. It is designed to efficiently handle large log files by utilizing multiple threads to improve performance.
 
 ---
 
 ### 🚀 Why This Project?
-With the increasing number of **cyber threats** and **unauthorized access attempts**, log monitoring plays a crucial role in **enhancing security**.  
-This system helps organizations:
-**monitor login activities**,
-**detect suspicious login attempts**,
-**improve security** by identifying unusual patterns in login failures.
+
+With the increasing number of **cyber threats** and **unauthorized access attempts**, log monitoring plays a crucial role in **enhancing security**. This system helps organizations:
+
+- **Monitor login activities**
+- **Detect suspicious login attempts**
+- **Improve security** by identifying unusual patterns in login failures
 
 ---
 
 ## ⚙️ Features
-#✅ **Efficient Log Analysis** -High-speed scanning of log files.  
-#✅ **Real-time Alerts** -Detects security threats instantly. 
-#✅ **Structured Logging**  – Logs are well-organized for quick diagnosis.
-🔍 **Real-time Log Monitoring** – Continuously scans logs for failed login attempts.  
-#⚡ **Parallel Processing** – Uses **Multi-threading** to analyze large logs faster.  
-#🚨 **Failed Login Detection** – Identifies multiple failed login attempts for security alerts.   
-#📩 **Scalability** – Easily integrates with existing monitoring solutions. 
+
+- ✅ **Efficient Log Analysis** - High-speed scanning of log files.
+- ✅ **Real-time Alerts** - Detects security threats instantly.
+- ✅ **Structured Logging** - Logs are well-organized for quick diagnosis.
+- 🔍 **Real-time Log Monitoring** - Continuously scans logs for failed login attempts.
+- ⚡ **Parallel Processing** - Uses **Multi-threading** to analyze large logs faster.
+- 🚨 **Failed Login Detection** - Identifies multiple failed login attempts for security alerts.
+- 📩 **Scalability** - Easily integrates with existing monitoring solutions.
 
 ---
 
 ## 🛠️ Technologies Used
-| **Technology**       | **Purpose**                               |
-|----------------------|-------------------------------------------|
-| **Java**            | Main programming language                  |
-| **Multi-threading** | For fast log analysis and real-time alerts |
-| **Java (JDK 17+)**  | ore application logic                      |
-| **Maven**           | Dependency management                      |
-| **GitHub**          | Version control                            |
+
+|
+**
+Technology
+**
+|
+**
+Purpose
+**
+|
+|
+----------------------
+|
+-------------------------------------------
+|
+|
+**
+Java
+**
+|
+ Main programming language                 
+|
+|
+**
+Multi-threading
+**
+|
+ For fast log analysis and real-time alerts
+|
+|
+**
+Java (JDK 17+)
+**
+|
+ Core application logic                    
+|
+|
+**
+Maven
+**
+|
+ Dependency management                     
+|
+|
+**
+GitHub
+**
+|
+ Version control                           
+|
 
 ---
-
 
 ## 📜 Example Log File (`logs.txt`)
-```
-[2025-03-10 10:15:30] User: Ahmed LOGIN SUCCESS  
-[2025-03-10 10:16:05] User: Sara FAILED LOGIN  
-[2025-03-10 10:16:35] User: Ali FAILED LOGIN  
-[2025-03-10 10:17:00] User: Sara FAILED LOGIN  
+[2025-03-10 10:15:30] User: Ahmed LOGIN SUCCESS
+[2025-03-10 10:16:05] User: Sara FAILED LOGIN
+[2025-03-10 10:16:35] User: Ali FAILED LOGIN
+[2025-03-10 10:17:00] User: Sara FAILED LOGIN
 [2025-03-10 10:17:20] User: Sara FAILED LOGIN
-```
+
+
+
 🚨 From the above logs, we can see that "Sara" has multiple failed login attempts, which could indicate a brute-force attack or unauthorized access attempt.
 
-
 ---
+
 ## 📂 Project Structure
+LogMonitorSystem/
+│── src/
+│ ├── logmonitorsystem/
+│ │ ├── LogMonitorSystem.java # Main class to read logs
+│ │ ├── LogProcessor.java # Multi-threaded log processing
+│── logs.txt # Log file (created manually)
+│── README.md
 
-#LogMonitorSystem/
-#│── src/
-#│   ├── logmonitorsystem/
-#│   │   ├── LogMonitorSystem.java  # Main class to read logs
-#│   │   ├── LogProcessor.java       # Multi-threaded log processing
-#│── logs.txt                        # Log file (created manually)
-#│── README.md
+
+Collapse
 
 ---
+
 ## 🛠 Project Implementation Steps
 
--1️⃣ Requirements Analysis & Planning
+1️⃣ **Requirements Analysis & Planning**
 
-Define the main objectives of the log monitoring system.
+- Define the main objectives of the log monitoring system.
+- Identify key security threats and logging needs.
+- Choose the appropriate technologies.
 
-Identify key security threats and logging needs.
+2️⃣ **Setting Up the Development Environment**
 
-Choose the appropriate technologies
+- Install Java (JDK 17+), Maven, and necessary dependencies.
+- Install NetBeans IDE.
+- Clone the GitHub repository.
 
--2️⃣ Setting Up the Development Environment
+3️⃣ **Implementing the Log Monitoring System**
 
-Install Java (JDK 17+), Maven, and necessary dependencies.
-Install NetBeans IDE.
+- Develop log processing services using Java multi-threading for efficiency.
 
-Clone the GitHub repository.
+4️⃣ **Log Analysis & Alert System**
 
--3️⃣ Implementing the Log Monitoring System
+- Implement log parsing and filtering using Regex and data structures.
+- Detect failed login attempts and unauthorized access.
 
--🔄 Develop log processing services using Java multi-threading for efficiency.
+5️⃣ **Deploy and Monitor**
 
--4️⃣ Log Analysis & Alert System
-
-📊 Implement log parsing and filtering using Regex and data structures.
-
-🚨 Detect failed login attempts and unauthorized access.
-
-# Ensure logs.txt Exists
-#- Inside the project folder, manually create a file named logs.txt and add some log data, for example:
-  txt
-  #[INFO] Application started
-  #[WARNING] High memory usage detected
-  #[ERROR] Unable to connect to database
-
--5️⃣ Deploy and Monitor
-
-🚀 Build & Run the Project
-
-
+- Ensure `logs.txt` exists inside the project folder with some log data.
+- Build & Run the Project.
